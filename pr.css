@@ -1,0 +1,377 @@
+
+* {
+  box-sizing: border-box;
+}
+body{
+	background:purple;
+	font-family: Verdana, sans-serif;
+	margin:0;
+	padding:0;
+	width:100%;
+	}
+h2{color:white;
+font:bold;
+	
+	
+	}
+.lprimary,#lprimary{margin:2px; 
+border:solid #FFF 2px;
+	
+	}
+strong{
+color:white;	
+	
+	}
+
+.myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: yellow;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: purple;
+  display: block;
+  margin-bottom:5px;
+ font-weight: bold;
+}
+/*FOR SEARCH PARAMENTERS*/
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*FOR SEARCH PARAMENTERS*/
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: yellow;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: purple;
+  display: block;
+  margin-bottom:5px;
+ font-weight: bold;
+}
+
+
+
+/*.myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+/* styles the input for search.html*/
+ 
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 90%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  
+}
+
+.que{width:auto;
+height:auto;
+ color:purple;
+          
+		   		   
+		   background:yellow;
+		   padding:12px 16px;
+		    width:100%;
+		  
+           margin-bottom:5px;
+ font-weight: bold;
+}
+.myUL .ups a{background-color:#000;
+color:#FFF;
+
+}
+#myUL .ups a{background-color:#000; /*for search*/
+color:#FFF;
+}
+.myUL .returnmenu a{background-color:#000;
+color:#FFF;
+text-align:center;
+
+}
+.myUL .footer a{background-color:#FF0;
+color:#606;
+font-weight:bold;
+text-align:center;
+
+}
+
+#myUL .footer a{background-color:#FF0;
+color:#606;
+font-weight:bold;
+text-align:center;
+
+}
+
+.myUL .one a{color:#FFF;
+}
+.black{
+	width:auto;
+	background-color:#000;
+	color:#FFF;
+	padding:10px 12px;
+text-align:center;
+	}
+a.two {background-color: #FF0;
+width:auto;
+color: #909;
+display:block;
+	padding:12px 16px;
+	margin-bottom:5px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.myUL .top a{background-color:#906;
+        color:#FF0;
+		text-align:center;
+		font-weight:bold;
+}
+	
+.myUL .sylla a{
+	background-color:#000;
+	color:#FFF;
+	
+text-align:center;
+	}
+/*controls index login page*/	
+	#login-btn {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:10px;
+margin-top:10px;
+}
+#code {
+  
+
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+
+display: block;
+  width: 100%;
+  border: none;
+  background-color: #FFF;
+  color: white;
+  margin-left:auto;
+margin-right:auto;
+}
+#cpin{
+	text-align:center;
+	}
+	/*class for suscription.html*/
+.myUL .center a{text-align:center;
+     
+	}	
+
+/*controls label color enter pin code*/
+#lcolor{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	
+	}	
+/*controls dialog.html*/	
+.navbar {
+  background-color: yellow;
+ 
+  width: 100%;
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 12px 16px;
+  font-size:17px;
+font-weight: bold;
+}
+/*controls close dialog.html*/
+.nav a{
+  background-color: yellow;
+  position: fixed;
+  top:200px;
+  width: 100%;
+  font-weight: bold;
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 12px 16px;
+  font-size:17px;
+text-decoration:none;
+}
+
+/*controls p-tag for dialog*/
+.ncolor{
+	color:#FFF;
+	text-align:center;
+	
+	
+	}
+/*controls p-tag for error.html*/
+.gerror a{
+	display:block;
+	color:purple;
+	text-align:center;
+	text-decoration:none;
+ width: 100%;
+text-decoration:none;	
+  padding: 12px 16px;
+	  background-color: yellow;
+font-weight: bold;
+margin-bottom:10px;
+	}
+	
+	/*controls h4 payment for transaction.html*/
+.npayment {
+	display:block;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+ width: 100%;
+text-decoration:none;	
+  padding: 2px 4px;
+	  background-color:#F00;
+font-weight: bold;
+margin-top:10px;
+	}
+		/*controls  subscribe.html for transaction failed*/
+
+	.nsubscribe a{ background-color: yellow;
+  position: fixed;
+  top:200px;
+  width: 100%;
+  font-weight: bold;
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 12px 16px;
+  font-size:17px;
+text-decoration:none;
+		
+		}
+		
+/*controls  subscribe.html for transaction failed*/		
+.nconfirmation {
+	display:block;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+ width: 100%;
+text-decoration:none;	
+  padding: 2px 4px;
+	  background-color:green;
+font-weight: bold;
+margin-top:10px;
+	}
+	
+	
+		
+
+/* Full-width input fields */
+.frm, input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background:#FFF;
+}
+
+/* Add a background color when the inputs get focus */
+.frm, input[type=text]:focus, input[type=password]:focus {
+  background-color:#FFF;
+  outline: none;
+}
+
+/* controls  select when the inputs get focus */
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color:#FFF;
+}
+
+	/* controls  form on suscribe.html */
+.frm{
+	background:#ddd;
+	
+	}
+	/* controls  makepayment for suscribe */
+	#make-payment{width:10%;
+	background-color:green;
+	color:#FFF;
+ padding: 14px 12px;
+	margin-top:10px;
+		}
+		.frm a{width:40%;
+	background:green;
+	color:#FFF;
+	 padding: 12px 14px;
+	text-decoration:none;
+	margin-top:15px;
+	}
+	/* controls  closebutton for resources */
+	.clos #clos{width:100%;
+	padding: 12px 14px;
+	color:#FFF;
+	background:#000;
+	font-weight:bold;
+	
+	
+	}
+	/*controls multtiplication sign*/
+	.times{color:purple;}
+	
+	/*controls contact form */
+	
+	input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.cform {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:100%;
+  padding:10px 12px;
+  margin-bottom:10px;
+
+}
+/*controls contact2 form  for div */
+#contact2{
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	}

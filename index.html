@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="pr.css" rel="stylesheet" type="text/css" />
+
+<title>pincode</title>
+
+
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+ 
+</head>
+      
+  
+
+<body onload="ed()">
+  
+
+  
+   <div class="lprimary">
+            <ul class="myUL">
+             <li> <a href="resources.html">HOME MENU</a></li>
+</ul>
+      
+       <h2 style="text-align:center">
+               NyameyeEdu
+            </h2>
+           <label for="textinput-s" id="lcolor">Enter pin</label>
+            <input type="text" id="code" placeholder="e.g. 1234567890" required>
+            <button id="login-btn">
+               Login
+            </button>
+            <ul class="myUL">
+  <li class="center"><a href="subscribe.html"> Pick a Subscription</a></li>
+   </ul>
+       
+     <h4>&copy; 2018 NyameyeEdu</h4>
+        
+      </div>
+
+      <script>
+         $(document).ready(function() {
+
+            "use strict";
+
+            $("#login-btn").on("click", function() {
+               axios.get(`${'https://cors-anywhere.herokuapp.com/'} https://nyameyeedu.herokuapp.com/api/verify/subscription`, {
+                  params: {
+                     code: $("#code").val()
+                  }
+               })
+               .then(function (response) {
+                  if(response.data.message == 'active')
+                  {
+                     // show resources page if code/pin is active or valid
+                     window.location.href = 'resources.html';
+                  }
+               })
+               .catch(function (error) {
+                  if(error.response.data.message == 'invalid_code')
+                  {
+                     // show error page if code/pin is invalid
+                     window.location.href = 'error.html';
+                  }
+                  else if(error.response.data.message == 'expired')
+                  {
+                     // show error page if code/pin is expired
+                     window.location.href = 'error.html';
+                  }
+               })
+               .then(function () {
+                  // always executed
+               });
+            });
+         });
+      </script>
+
+   </div>
+ 
+  <script>
+function ed() {
+    window.history.forward();
+}
+   </script>
+       
+   
+   </body>
+</html>
